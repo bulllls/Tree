@@ -14,6 +14,11 @@
 		44C8DF7324475FBD0021AEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C8DF7224475FBD0021AEDC /* Assets.xcassets */; };
 		44C8DF7624475FBD0021AEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C8DF7424475FBD0021AEDC /* LaunchScreen.storyboard */; };
 		44C8DF7924475FBD0021AEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DF7824475FBD0021AEDC /* main.m */; };
+		44C8DF82244766CF0021AEDC /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DF80244766CF0021AEDC /* CollectionViewCell.m */; };
+		44C8DF83244766CF0021AEDC /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C8DF81244766CF0021AEDC /* CollectionViewCell.xib */; };
+		44C8DF8624476E410021AEDC /* BinaryLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DF8524476E410021AEDC /* BinaryLayout.m */; };
+		44C8DF8924487F390021AEDC /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DF8824487F390021AEDC /* Node.m */; };
+		44C8DF8C24488EB30021AEDC /* BalancedTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DF8B24488EB20021AEDC /* BalancedTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,15 @@
 		44C8DF7524475FBD0021AEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C8DF7724475FBD0021AEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C8DF7824475FBD0021AEDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44C8DF7F244766CF0021AEDC /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		44C8DF80244766CF0021AEDC /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		44C8DF81244766CF0021AEDC /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		44C8DF8424476E410021AEDC /* BinaryLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryLayout.h; sourceTree = "<group>"; };
+		44C8DF8524476E410021AEDC /* BinaryLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryLayout.m; sourceTree = "<group>"; };
+		44C8DF8724487F390021AEDC /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		44C8DF8824487F390021AEDC /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		44C8DF8A24488EB20021AEDC /* BalancedTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalancedTree.h; sourceTree = "<group>"; };
+		44C8DF8B24488EB20021AEDC /* BalancedTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalancedTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,15 @@
 				44C8DF6A24475FB90021AEDC /* SceneDelegate.m */,
 				44C8DF6C24475FB90021AEDC /* ViewController.h */,
 				44C8DF6D24475FB90021AEDC /* ViewController.m */,
+				44C8DF8724487F390021AEDC /* Node.h */,
+				44C8DF8824487F390021AEDC /* Node.m */,
+				44C8DF8A24488EB20021AEDC /* BalancedTree.h */,
+				44C8DF8B24488EB20021AEDC /* BalancedTree.m */,
+				44C8DF8424476E410021AEDC /* BinaryLayout.h */,
+				44C8DF8524476E410021AEDC /* BinaryLayout.m */,
+				44C8DF7F244766CF0021AEDC /* CollectionViewCell.h */,
+				44C8DF80244766CF0021AEDC /* CollectionViewCell.m */,
+				44C8DF81244766CF0021AEDC /* CollectionViewCell.xib */,
 				44C8DF6F24475FB90021AEDC /* Main.storyboard */,
 				44C8DF7224475FBD0021AEDC /* Assets.xcassets */,
 				44C8DF7424475FBD0021AEDC /* LaunchScreen.storyboard */,
@@ -135,6 +158,7 @@
 			files = (
 				44C8DF7624475FBD0021AEDC /* LaunchScreen.storyboard in Resources */,
 				44C8DF7324475FBD0021AEDC /* Assets.xcassets in Resources */,
+				44C8DF83244766CF0021AEDC /* CollectionViewCell.xib in Resources */,
 				44C8DF7124475FB90021AEDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C8DF6E24475FB90021AEDC /* ViewController.m in Sources */,
+				44C8DF82244766CF0021AEDC /* CollectionViewCell.m in Sources */,
+				44C8DF8924487F390021AEDC /* Node.m in Sources */,
+				44C8DF8C24488EB30021AEDC /* BalancedTree.m in Sources */,
+				44C8DF8624476E410021AEDC /* BinaryLayout.m in Sources */,
 				44C8DF6824475FB90021AEDC /* AppDelegate.m in Sources */,
 				44C8DF7924475FBD0021AEDC /* main.m in Sources */,
 				44C8DF6B24475FB90021AEDC /* SceneDelegate.m in Sources */,
@@ -289,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
